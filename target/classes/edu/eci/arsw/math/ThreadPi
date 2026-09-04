@@ -2,7 +2,7 @@ package edu.eci.arsw.math;
 
 import java.util.Arrays;
 /*
-* Primer punro del desarollo del parcial, creacion de la clase y ciclo de vida 
+* Primer punto del desarollo del parcial primer corte, creacion de la clase y ciclo de vida 
 * de un hilo.
 */
 public class ThreadPi extends Thread {
