@@ -1,0 +1,34 @@
+package edu.eci.arsw.math;
+
+import java.util.Arrays;
+/*
+* Primer punro del desarollo del parcial, creacion de la clase y ciclo de vida 
+* de un hilo.
+*/
+public class ThreadPi extends Thread {
+    private int start;
+    private int end;
+    private object lock = new Object ();
+    ArrayList<byte[]> digits;
+
+
+    public ThreadPi (int start, int end){
+        this.start = start;
+        this.end = end;
+    }
+
+    // Segundo punto se sobre escribe de Thread y se obtienen los digitos 
+    @override
+        public void run() {
+            for (int i = star; i < end; i++)
+                try (
+            digitsFound.add(PiDigits.getDigits(i, end ,0));
+                ) catch(InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+        }
+
+
+    
+
+}
